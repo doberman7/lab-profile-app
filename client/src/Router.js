@@ -22,8 +22,6 @@ const Router = () => {
           <Route path="/signup" component={Signup} />
           <Route path="/profile" component={Profile} />
         </Switch>
-        // cómo oculto este conmponente, asumo que cambiando el estado, pero //
-        // niidea cómo
         <ButtonsHome />
       </LayoutApp>
     </BrowserRouter>
